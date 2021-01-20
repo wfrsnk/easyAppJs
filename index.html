@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./script.js"></script>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Home</h1>
+
+    <select id = "selector" class = "selectorClass" onchange="changeName()" onclick="delColorSelect()">
+       <ul>
+           <li>New TEST 1</li>
+           <li>New TEST 1</li>
+           <li>New TEST 1</li>
+           <li>New TEST 1</li>
+       </ul>
+        <!-- <option>New TEST 1</option>
+        <option>New TEST 2</option>
+        <option>New TEST 3</option>
+        <option>New TEST 4</option> -->
+    </select>
+    <h1>Edit home</h1>
+    <div class = "editContent">
+        <input id = "inputEdit" class = "inputClass" type="text" placeholder = "Enter the home name" onclick="delColor()">
+        <div id = "save" class = "saveClass" onclick="save()"> Save </div>
+    </div>
+</body>
+</html>

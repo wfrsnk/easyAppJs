@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.selectorClass {
+    font-size: 14px;
+    text-align-last: center;
+    display: block;
+    height: 40px;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    background-color: #fff;
+}
+
+option {
+    display: block;
+    box-sizing: border-box;
+}
+option :focus {
+background-color: #cfcfcf;
+}
+
+.selectorClass:focus{
+    box-shadow: 0px 0 5px rgb(109, 189, 255);
+    outline: none;
+}
+
+.editContent {
+    display: flex;
+    max-width: 30%;
+   
+}
+
+.inputClass {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px #0000000a; 
+    border-right: 0px;
+    width: 342px;
+    line-height: 40px; 
+    float: left;
+    background-color: white;
+}
+
+.inputClass:focus{
+    box-shadow: 0 0 5px #6dbdff;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    border: 1px solid  #6dbdff;
+    border-right: 0px;
+    width: 342px;
+    height: 40px;
+    float: left;
+    background-color: white;
+    outline: none;
+}
+
+.saveClass {
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px #0000000a; 
+    border-radius: 0 .5em .5em 0;
+    width: 50px;
+    padding-top: 12px;
+    text-align: center;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+}
+
+.saveClass:focus {
+    box-shadow: 0 0 5px rgb(109, 189, 255);
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    padding-top: 12px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-left: 1px solid;
+    float: right;
+    background-color: white;
+    cursor: pointer;
+}
+
+
